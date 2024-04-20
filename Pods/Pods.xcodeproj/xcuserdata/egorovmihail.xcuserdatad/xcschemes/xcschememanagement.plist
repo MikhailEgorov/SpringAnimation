@@ -4,19 +4,13 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>SpringAnimation.xcscheme_^#shared#^_</key>
+		<key>Pods-SpringAnimation.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>5FDED531289559C100614EFC</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>

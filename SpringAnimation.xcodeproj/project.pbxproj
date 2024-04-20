@@ -7,16 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F58A771289AFCCD00881D92 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F58A755289AFCCD00881D92 /* DesignableImageView.swift */; };
+		5F58A772289AFCCD00881D92 /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F58A756289AFCCD00881D92 /* KeyboardLayoutConstraint.swift */; };
+		5F58A773289AFCCD00881D92 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F58A757289AFCCD00881D92 /* TransitionManager.swift */; };
+		5F58A774289AFCCD00881D92 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F58A758289AFCCD00881D92 /* TransitionZoom.swift */; };
+		5F58A775289AFCCD00881D92 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F58A759289AFCCD00881D92 /* ImageLoader.swift */; };
+		5F58A776289AFCCD00881D92 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F58A75A289AFCCD00881D92 /* Spring.swift */; };
+		5F58A777289AFCCD00881D92 /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F58A75B289AFCCD00881D92 /* SpringImageView.swift */; };
+		5F58A778289AFCCD00881D92 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F58A75C289AFCCD00881D92 /* DesignableLabel.swift */; };
+		5F58A779289AFCCD00881D92 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F58A75D289AFCCD00881D92 /* SoundPlayer.swift */; };
+		5F58A77A289AFCCD00881D92 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F58A75E289AFCCD00881D92 /* BlurView.swift */; };
+		5F58A77B289AFCCD00881D92 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F58A75F289AFCCD00881D92 /* DesignableTextField.swift */; };
+		5F58A77C289AFCCD00881D92 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F58A760289AFCCD00881D92 /* SpringButton.swift */; };
+		5F58A77D289AFCCD00881D92 /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F58A761289AFCCD00881D92 /* SpringTextView.swift */; };
+		5F58A77E289AFCCD00881D92 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F58A762289AFCCD00881D92 /* Misc.swift */; };
+		5F58A77F289AFCCD00881D92 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F58A763289AFCCD00881D92 /* SpringView.swift */; };
+		5F58A780289AFCCD00881D92 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F58A764289AFCCD00881D92 /* DesignableButton.swift */; };
+		5F58A781289AFCCD00881D92 /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F58A765289AFCCD00881D92 /* SpringTextField.swift */; };
+		5F58A782289AFCCD00881D92 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F58A766289AFCCD00881D92 /* DesignableView.swift */; };
+		5F58A783289AFCCD00881D92 /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F58A767289AFCCD00881D92 /* DesignableTabBarController.swift */; };
+		5F58A784289AFCCD00881D92 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F58A768289AFCCD00881D92 /* AsyncButton.swift */; };
+		5F58A785289AFCCD00881D92 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F58A769289AFCCD00881D92 /* LoadingView.xib */; };
+		5F58A786289AFCCD00881D92 /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F58A76A289AFCCD00881D92 /* SpringLabel.swift */; };
+		5F58A787289AFCCD00881D92 /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F58A76B289AFCCD00881D92 /* DesignableTextView.swift */; };
+		5F58A788289AFCCD00881D92 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F58A76C289AFCCD00881D92 /* AutoTextView.swift */; };
+		5F58A789289AFCCD00881D92 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F58A76D289AFCCD00881D92 /* SpringAnimation.swift */; };
+		5F58A78A289AFCCD00881D92 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F58A76E289AFCCD00881D92 /* UnwindSegue.swift */; };
+		5F58A78B289AFCCD00881D92 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F58A76F289AFCCD00881D92 /* LoadingView.swift */; };
+		5F58A78C289AFCCD00881D92 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F58A770289AFCCD00881D92 /* AsyncImageView.swift */; };
 		5FDED536289559C100614EFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDED535289559C100614EFC /* AppDelegate.swift */; };
 		5FDED538289559C100614EFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDED537289559C100614EFC /* SceneDelegate.swift */; };
 		5FDED53A289559C100614EFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDED539289559C100614EFC /* ViewController.swift */; };
 		5FDED53D289559C100614EFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FDED53B289559C100614EFC /* Main.storyboard */; };
 		5FDED53F289559C300614EFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FDED53E289559C300614EFC /* Assets.xcassets */; };
 		5FDED542289559C300614EFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FDED540289559C300614EFC /* LaunchScreen.storyboard */; };
+		5FDED54A28955FFF00614EFC /* Extension + UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDED54928955FFF00614EFC /* Extension + UIButton.swift */; };
+		67A4EDC4630D99E0BC10E6E4 /* Pods_SpringAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362AE2061ED5097D592F0D96 /* Pods_SpringAnimation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5FDED532289559C100614EFC /* SpringAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpringAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		362AE2061ED5097D592F0D96 /* Pods_SpringAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpringAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5754B58F1A5F940F73C400FD /* Pods-SpringAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpringAnimation.release.xcconfig"; path = "Target Support Files/Pods-SpringAnimation/Pods-SpringAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		5F58A753289AFC4400881D92 /* SpringAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpringAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F58A755289AFCCD00881D92 /* DesignableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableImageView.swift; sourceTree = "<group>"; };
+		5F58A756289AFCCD00881D92 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		5F58A757289AFCCD00881D92 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
+		5F58A758289AFCCD00881D92 /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
+		5F58A759289AFCCD00881D92 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		5F58A75A289AFCCD00881D92 /* Spring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spring.swift; sourceTree = "<group>"; };
+		5F58A75B289AFCCD00881D92 /* SpringImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringImageView.swift; sourceTree = "<group>"; };
+		5F58A75C289AFCCD00881D92 /* DesignableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableLabel.swift; sourceTree = "<group>"; };
+		5F58A75D289AFCCD00881D92 /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		5F58A75E289AFCCD00881D92 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		5F58A75F289AFCCD00881D92 /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
+		5F58A760289AFCCD00881D92 /* SpringButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringButton.swift; sourceTree = "<group>"; };
+		5F58A761289AFCCD00881D92 /* SpringTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextView.swift; sourceTree = "<group>"; };
+		5F58A762289AFCCD00881D92 /* Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		5F58A763289AFCCD00881D92 /* SpringView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringView.swift; sourceTree = "<group>"; };
+		5F58A764289AFCCD00881D92 /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		5F58A765289AFCCD00881D92 /* SpringTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextField.swift; sourceTree = "<group>"; };
+		5F58A766289AFCCD00881D92 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		5F58A767289AFCCD00881D92 /* DesignableTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTabBarController.swift; sourceTree = "<group>"; };
+		5F58A768289AFCCD00881D92 /* AsyncButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
+		5F58A769289AFCCD00881D92 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		5F58A76A289AFCCD00881D92 /* SpringLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringLabel.swift; sourceTree = "<group>"; };
+		5F58A76B289AFCCD00881D92 /* DesignableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextView.swift; sourceTree = "<group>"; };
+		5F58A76C289AFCCD00881D92 /* AutoTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoTextView.swift; sourceTree = "<group>"; };
+		5F58A76D289AFCCD00881D92 /* SpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
+		5F58A76E289AFCCD00881D92 /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
+		5F58A76F289AFCCD00881D92 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		5F58A770289AFCCD00881D92 /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
 		5FDED535289559C100614EFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FDED537289559C100614EFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5FDED539289559C100614EFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +84,8 @@
 		5FDED53E289559C300614EFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FDED541289559C300614EFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FDED543289559C300614EFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FDED54928955FFF00614EFC /* Extension + UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIButton.swift"; sourceTree = "<group>"; };
+		A6B6934BAD91F28B7D9A8AFA /* Pods-SpringAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpringAnimation.debug.xcconfig"; path = "Target Support Files/Pods-SpringAnimation/Pods-SpringAnimation.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,26 +93,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67A4EDC4630D99E0BC10E6E4 /* Pods_SpringAnimation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F58A754289AFCCD00881D92 /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				5F58A755289AFCCD00881D92 /* DesignableImageView.swift */,
+				5F58A756289AFCCD00881D92 /* KeyboardLayoutConstraint.swift */,
+				5F58A757289AFCCD00881D92 /* TransitionManager.swift */,
+				5F58A758289AFCCD00881D92 /* TransitionZoom.swift */,
+				5F58A759289AFCCD00881D92 /* ImageLoader.swift */,
+				5F58A75A289AFCCD00881D92 /* Spring.swift */,
+				5F58A75B289AFCCD00881D92 /* SpringImageView.swift */,
+				5F58A75C289AFCCD00881D92 /* DesignableLabel.swift */,
+				5F58A75D289AFCCD00881D92 /* SoundPlayer.swift */,
+				5F58A75E289AFCCD00881D92 /* BlurView.swift */,
+				5F58A75F289AFCCD00881D92 /* DesignableTextField.swift */,
+				5F58A760289AFCCD00881D92 /* SpringButton.swift */,
+				5F58A761289AFCCD00881D92 /* SpringTextView.swift */,
+				5F58A762289AFCCD00881D92 /* Misc.swift */,
+				5F58A763289AFCCD00881D92 /* SpringView.swift */,
+				5F58A764289AFCCD00881D92 /* DesignableButton.swift */,
+				5F58A765289AFCCD00881D92 /* SpringTextField.swift */,
+				5F58A766289AFCCD00881D92 /* DesignableView.swift */,
+				5F58A767289AFCCD00881D92 /* DesignableTabBarController.swift */,
+				5F58A768289AFCCD00881D92 /* AsyncButton.swift */,
+				5F58A769289AFCCD00881D92 /* LoadingView.xib */,
+				5F58A76A289AFCCD00881D92 /* SpringLabel.swift */,
+				5F58A76B289AFCCD00881D92 /* DesignableTextView.swift */,
+				5F58A76C289AFCCD00881D92 /* AutoTextView.swift */,
+				5F58A76D289AFCCD00881D92 /* SpringAnimation.swift */,
+				5F58A76E289AFCCD00881D92 /* UnwindSegue.swift */,
+				5F58A76F289AFCCD00881D92 /* LoadingView.swift */,
+				5F58A770289AFCCD00881D92 /* AsyncImageView.swift */,
+			);
+			name = Spring;
+			path = Spring/Spring;
+			sourceTree = "<group>";
+		};
 		5FDED529289559C100614EFC = {
 			isa = PBXGroup;
 			children = (
 				5FDED534289559C100614EFC /* SpringAnimation */,
-				5FDED533289559C100614EFC /* Products */,
+				76D9C57F7E28CD5383852293 /* Pods */,
+				5F58A753289AFC4400881D92 /* SpringAnimation.app */,
+				994E7CEAAC9F12A5ADE5BCFE /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		5FDED533289559C100614EFC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5FDED532289559C100614EFC /* SpringAnimation.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		5FDED534289559C100614EFC /* SpringAnimation */ = {
@@ -59,12 +152,31 @@
 				5FDED535289559C100614EFC /* AppDelegate.swift */,
 				5FDED537289559C100614EFC /* SceneDelegate.swift */,
 				5FDED539289559C100614EFC /* ViewController.swift */,
+				5FDED54928955FFF00614EFC /* Extension + UIButton.swift */,
 				5FDED53B289559C100614EFC /* Main.storyboard */,
 				5FDED53E289559C300614EFC /* Assets.xcassets */,
 				5FDED540289559C300614EFC /* LaunchScreen.storyboard */,
 				5FDED543289559C300614EFC /* Info.plist */,
 			);
 			path = SpringAnimation;
+			sourceTree = "<group>";
+		};
+		76D9C57F7E28CD5383852293 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F58A754289AFCCD00881D92 /* Spring */,
+				A6B6934BAD91F28B7D9A8AFA /* Pods-SpringAnimation.debug.xcconfig */,
+				5754B58F1A5F940F73C400FD /* Pods-SpringAnimation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		994E7CEAAC9F12A5ADE5BCFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				362AE2061ED5097D592F0D96 /* Pods_SpringAnimation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +186,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5FDED546289559C300614EFC /* Build configuration list for PBXNativeTarget "SpringAnimation" */;
 			buildPhases = (
+				9846178727412B1AF068E0F9 /* [CP] Check Pods Manifest.lock */,
 				5FDED52E289559C100614EFC /* Sources */,
 				5FDED52F289559C100614EFC /* Frameworks */,
 				5FDED530289559C100614EFC /* Resources */,
@@ -84,7 +197,7 @@
 			);
 			name = SpringAnimation;
 			productName = SpringAnimation;
-			productReference = 5FDED532289559C100614EFC /* SpringAnimation.app */;
+			productReference = 5F58A753289AFC4400881D92 /* SpringAnimation.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +224,7 @@
 				Base,
 			);
 			mainGroup = 5FDED529289559C100614EFC;
-			productRefGroup = 5FDED533289559C100614EFC /* Products */;
+			productRefGroup = 5FDED529289559C100614EFC;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -126,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FDED542289559C300614EFC /* LaunchScreen.storyboard in Resources */,
+				5F58A785289AFCCD00881D92 /* LoadingView.xib in Resources */,
 				5FDED53F289559C300614EFC /* Assets.xcassets in Resources */,
 				5FDED53D289559C100614EFC /* Main.storyboard in Resources */,
 			);
@@ -133,14 +247,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9846178727412B1AF068E0F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpringAnimation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5FDED52E289559C100614EFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F58A77D289AFCCD00881D92 /* SpringTextView.swift in Sources */,
+				5F58A77F289AFCCD00881D92 /* SpringView.swift in Sources */,
+				5F58A779289AFCCD00881D92 /* SoundPlayer.swift in Sources */,
+				5F58A780289AFCCD00881D92 /* DesignableButton.swift in Sources */,
+				5F58A77A289AFCCD00881D92 /* BlurView.swift in Sources */,
+				5F58A786289AFCCD00881D92 /* SpringLabel.swift in Sources */,
+				5F58A77E289AFCCD00881D92 /* Misc.swift in Sources */,
+				5F58A781289AFCCD00881D92 /* SpringTextField.swift in Sources */,
 				5FDED53A289559C100614EFC /* ViewController.swift in Sources */,
+				5F58A771289AFCCD00881D92 /* DesignableImageView.swift in Sources */,
+				5F58A773289AFCCD00881D92 /* TransitionManager.swift in Sources */,
+				5F58A789289AFCCD00881D92 /* SpringAnimation.swift in Sources */,
+				5F58A777289AFCCD00881D92 /* SpringImageView.swift in Sources */,
 				5FDED536289559C100614EFC /* AppDelegate.swift in Sources */,
+				5F58A77B289AFCCD00881D92 /* DesignableTextField.swift in Sources */,
 				5FDED538289559C100614EFC /* SceneDelegate.swift in Sources */,
+				5F58A784289AFCCD00881D92 /* AsyncButton.swift in Sources */,
+				5F58A782289AFCCD00881D92 /* DesignableView.swift in Sources */,
+				5F58A783289AFCCD00881D92 /* DesignableTabBarController.swift in Sources */,
+				5F58A775289AFCCD00881D92 /* ImageLoader.swift in Sources */,
+				5F58A776289AFCCD00881D92 /* Spring.swift in Sources */,
+				5FDED54A28955FFF00614EFC /* Extension + UIButton.swift in Sources */,
+				5F58A788289AFCCD00881D92 /* AutoTextView.swift in Sources */,
+				5F58A78B289AFCCD00881D92 /* LoadingView.swift in Sources */,
+				5F58A77C289AFCCD00881D92 /* SpringButton.swift in Sources */,
+				5F58A78A289AFCCD00881D92 /* UnwindSegue.swift in Sources */,
+				5F58A772289AFCCD00881D92 /* KeyboardLayoutConstraint.swift in Sources */,
+				5F58A787289AFCCD00881D92 /* DesignableTextView.swift in Sources */,
+				5F58A78C289AFCCD00881D92 /* AsyncImageView.swift in Sources */,
+				5F58A778289AFCCD00881D92 /* DesignableLabel.swift in Sources */,
+				5F58A774289AFCCD00881D92 /* TransitionZoom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +449,7 @@
 		};
 		5FDED547289559C300614EFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6B6934BAD91F28B7D9A8AFA /* Pods-SpringAnimation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,6 +461,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +479,7 @@
 		};
 		5FDED548289559C300614EFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5754B58F1A5F940F73C400FD /* Pods-SpringAnimation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,6 +491,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
